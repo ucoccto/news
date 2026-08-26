@@ -211,3 +211,26 @@ __marimo__/
 # git rm -r --cached logs/
 logs/
 logs/**
+
+
+# Terraform
+infra/.terraform/
+#infra/*.tfstate
+#infra/*.tfstate.*
+infra/.terraform.lock.hcl
+infra/terraform.tfvars
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Generated logs
+output/*.jsonl
+output/*.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+.terraform/

@@ -1,0 +1,5 @@
+# 실제 Silver 데이터가 남아 있는 S3 Bucket 이름으로 수정
+silver_bucket_name = "de-ai-25-loggen-s3-bk-827913617635"
+
+aws_region   = "ap-northeast-2"
+project_name = "de-ai-25-loggen"
